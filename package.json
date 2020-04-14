@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel": "^6.23.0",
     "i": "^0.3.6",
     "moment": "^2.24.0",
@@ -14,10 +14,13 @@
     "react-bulma-components": "^2.3.0",
     "react-dom": "^16.6.3",
     "react-router": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.1",
     "reactstrap": "^6.5.0",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-observable": "^1.2.0",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
