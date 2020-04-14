@@ -1,6 +1,2 @@
-
-
-export const CurrencyDropdown = {
-    SelectedItem: "SelectedItem",
-    ChangedItem: "ChangedItem"
-}
+export const CURRENCY_DROPDOWN_SELECTED_ITEM = 'action/CURRENCY_DROPDOWN_SELECTED_ITEM';
+export const CURRENCY_DROPDOWN_CHANGED_ITEM = 'action/CURRENCY_DROPDOWN_CHANGED_ITEM';

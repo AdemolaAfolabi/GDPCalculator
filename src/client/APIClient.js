@@ -2,7 +2,7 @@ import Axios from 'axios'
 
 
 export const GetGDPByCountry = (countryCode, requestDate) => {
-    countryData = {}
+    const countryData = {}
     
     Axios.get("http://api.worldbank.org./v2/country/br/indicator/" + countryCode, {
         params: {
